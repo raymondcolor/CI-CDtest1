@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200;300;500;700&family=Montserrat:ital,wght@0,300;0,400;0,500;1,200&family=Outfit:wght@100;200;300;400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #ebe6d2;
+   
+    position: relative;
+    overflow: hidden;
+}
+
+.div-left{
+    height: 750px;
+    flex: 50%;
+  overflow: hidden; 
+  border-radius: 19% 81% 79% 21% / 46% 49% 51% 54% ;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+
+.div-left img{
+    height: 660px;
+    width: 570px;
+}
+
+
+.div-right{
+    position: absolute;
+    right: 180px;
+    top: 100px;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: #2a3137;
+    font-weight: 600;
+}
+
+label{
+    
+    font-size: 18px;
+    color: #2a3137;
+    
+}
+
+.input{
+    height: 30px;
+    width: 180px;
+    margin-right: 20px;
+    background: transparent;
+    border: 1px solid;
+}
+
+.btn{
+    background-color: #2a3137;
+    padding: 15px;
+    width: 400px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.container-input-login{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-login{
+    height: 30px;
+    width: 395px;
+    margin-right: 20px;
+    background: transparent;
+    border: 1px solid;
+}
+
+.link{
+    text-decoration: none;
+    color: #2a3137;
+    
+}
+
+.link:hover{
+    text-decoration: underline;
+}
